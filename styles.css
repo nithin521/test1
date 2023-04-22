@@ -1,0 +1,50 @@
+input {
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 350px;
+  outline: 0;
+  background-color: #144053;
+  border: 1px solid white;
+}
+input::placeholder {
+  color: white;
+}
+.body {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+body {
+  font-weight: 400;
+  color: whitesmoke;
+  overflow: hidden;
+  background-color: #f09629;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+}
+.wrap {
+  /* background-image: linear-gradient(270deg, lightblue, red); */
+}
+
+textarea:focus,
+input:focus {
+  color: whitesmoke;
+}
+button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-47%, -8%);
+}
